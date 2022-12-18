@@ -3,38 +3,131 @@
     <head>
         <title>Alex Dabbs</title>
         <link href="style.css" rel="stylesheet">
+        <style>
+            hr {
+                margin-top: 2em;
+                margin-bottom: 2em;
 
-        <!-- Google Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+            }
+        </style>
 
     </head>
+
     <body>
         <!-- Title -->
         <div class="TitleArea">
             <h1>Alexander Dabbs</h1>
-            
-            Tampa, FL | <a target="_blank" href="https://www.linkedin.com/in/alexander-dabbs">LinkedIn</a>
-            
-            <div style="text-align: center;">
-                <div class="Navigation"> 
-                    <a class="Selected" href="index.html">Home</a>
-                    <a class="NavItem" href="education.html">Education</a>
-                    <a class="NavItem" href="#ProjectExperience">Projects</a>
-                    <a class="NavItem" href="#ProjectExperience">Employment</a>
-                </div>
+            <div class="Navigation"> 
+                <a class="NavItem" href="#Education">Education</a>
+                <a class="NavItem" href="#Projects">Projects</a>
+                <a class="NavItem" href="#Employment">Employment</a>
+                <a class="NavItem" target="_blank" href="https://www.linkedin.com/in/alexander-dabbs">LinkedIn</a>
             </div>
-    
         </div>
 
         <div class="CenterContent">
-            <h3>About Me</h3>
-            <p>Eget est lorem ipsum dolor sit. Ac turpis egestas sed tempus urna et pharetra. Rhoncus est pellentesque elit ullamcorper. Sit amet commodo nulla facilisi nullam vehicula ipsum. Tincidunt dui ut ornare lectus sit amet. Euismod quis viverra nibh cras pulvinar mattis nunc.<p>
-            <p>Mi eget mauris pharetra et ultrices neque. Potenti nullam ac tortor vitae purus faucibus ornare. Malesuada nunc vel risus commodo. Ultricies integer quis auctor elit sed vulputate. Pellentesque nec nam aliquam sem. Augue eget arcu dictum varius. Integer vitae justo eget magna fermentum iaculis.</p>    
+
+            <!-- Professional Summary -->
+            <h2>PROFESSIONAL SUMMARY</h2>
+            <p>Cybersecurity enthusiast with extensive experience in Behavioral Therapy and fresh technical skills eager to break into the IT and Cybersecurity industry. Recently completed the Cybersecurity Professional Certificate through the University of Central Florida. Developing skills in Python, Windows, Linux, Splunk and more to begin a career as a Cybersecurity Analyst.</p>
+            <hr>
+
+            <!-- Education -->
+            <h2 id="Education">EDUCATION</h2>
+            
+            <h3>Florida State University</h3>
+            <p>Tallahassee, FL | Bachelor of Science, Psychology 2020</p>
+            
+            <h3>University of Central Florida</h3>
+            <p>Orlando, FL | Cybersecurity Professional Certificate 2022</p>
+            <p>
+                Courses: Computer Networking, Microsoft Security, Network Security, Python, Digital Forensics and Incident Response, Linux Security, Cyber Infrastructure and Technology
+            </p>
+            <hr>
+
+            <!-- Skills -->
+            <h2>SKILLS</h2>
+            <p>Operating Systems: Windows Client, Ubuntu, Windows Server 2012 R2, Kali</p>
+            <p>Programming Languages: Python</p>
+            <p>Security: SIEM, edge defense, log analysis, layered defense concepts</p>
+            <p>Networking: VLANs, ACLs, RIP, static routing, subnetting, VTP, VPN, 802.1q</p>
+            <hr>
+
+            <h2 id="Projects">PROJECTS</h2>
+            <h3> Computer Networking with CISCO | University of Central Florida | January 2022</h3> <!-- Unbolden the school and year -->
+            <ul>
+                <li>
+                    Developed a Wide Area Network for a mock bank that included three Local Area Networks, one of which was partitioned using a VLAN and configured all network devices and endpoints to communicate to the entire WAN 
+                </li>
+                <li>
+                    Designed an IP Address Scheme and implemented VLANs and Trunking Protocols and assigned IP Addresses to each subnet and configured specific routers for Inter-VLAN routing.    
+                </li>
+                <li>
+                    Secured switch physical ports and configured OSPF and Extended ACLs to prevent guests on the network from connecting to the NTP/Syslog Server.
+                </li>
+                <li>
+                    Configured settings to prevent unauthorized access and enabled secure remote access through SSHv2 on all routers.
+                </li>
+            </ul>
+
+            <h3>AWS Cloud Computing | University of Central Florida | February 2022</h3> <!-- Unbolden the school and year -->
+            <ul>
+                <li>
+                    Utilized AWS to create an EC2 instance with basic configuration to connect via RDP and implemented IAM features for user and group creation and modified existing groups to govern ICMP and RDP access to AWS resources.
+                </li>
+                <li>
+                    Created a virtual Windows Server 2012 R2 machine with basic configuration settings and enabled Inspector to improve instance security.
+                </li>
+                <li>
+                    Established an organization within the instance to allow for centralized management for multiple AWS accounts and created service control policies with security verification.
+                </li>
+                <li>
+                    Configured an S3 Bucket with a file and CloudFront to deliver the contents of the file and configured WAF to control which traffic from the application will be permitted or blocked according to the rules set.
+                </li>
+            </ul>
+
+            <h3>Keylogger in Python | Personal Project | October 2022</h3> <!-- Unbolden the school and year -->
+            <ul>
+                <li>
+                    Imported the library pynput into the code to allow the file to control and monitor devices when run. 
+                </li>
+                <li>
+                    Scripted functions to create an empty text file that would iterate through each key that was recorded and have it logged in the text file. 
+                </li>
+                <li>
+                    Created separate functions with global values that would count the number of keys recorded and update the text file after a fixed number of keys were logged. 
+                </li>
+                <li>
+                    Tested the keylogger file in a Virtual Box environment without firewall protection to ensure functionality for both the code and the text file created within. 
+                </li>
+            </ul>
+            <hr>
+
+            <!-- Professioanl Experience -->
+            <h2 id="Employment">EMPLOYMENT</h2> 
+            <h3>Elemy | Tampa, FL | <em>Senior Registered Behavior Technician</em> | June 2021 - May 2022</h3>
+            <ul>
+                <li>
+                    Conducted functional behavior assessments, functional analysis, preference assessments and assessments of basic learning and language skills to identify target behaviors and purpose of behaviors.
+                </li>
+                <li>
+                    Observed, monitored and recorded problem behaviors through accurate behavior-consequence data collection, graphs and anecdotal notes.
+                </li>
+                <li>
+                    Decreased client aggression by 95% and increased vocalization when coping with problem by 40% over 8 months.
+                </li>
+            </ul>
+
+            <h3>BlueSprig | Tampa, FL | <em>Registered Behavior Technician</em> November 2020 - June 2021</h3>
+            <ul>
+                <li>
+                    Used Central Reach to document patient information, progress notes and treatment plans.
+                </li>
+                <li>
+                    Implemented and established behavior strategies by setting rules, reiterating expectations and rewarding good behavior for over 12 clients.
+                </li>
+            </ul>
         </div>
-        
-        
 
     </body>
 </html>
