@@ -28,7 +28,8 @@ body {
     margin: 0;
     font-family: 'Barlow', sans-serif;
     background-color: var(--main-color);
-
+    background-image:
+    linear-gradient(to left, rgba(42, 46, 84, .52), rgba(25, 30, 74, 1) 1200px), url('geometricalBackground.jpg');
 }
 
 .TitleArea {
@@ -37,6 +38,7 @@ body {
     padding: 2em;
     color: white;
     background-color: #3d3e41;
+    background-image: linear-gradient(to right, #3d3e41, #7b7e85 2800px)
 }
 
 .Navigation {
@@ -123,4 +125,34 @@ h3 {
 
 .ThesisLink {
     margin-top: 1em;
+}
+
+hr {
+    color: white;
+}
+
+head {
+    background-image: linear-gradient(to left );
+}
+
+.ProjectBox li {
+    list-style-type:'- ';
+}
+
+.MiscProjects li {
+    list-style-type: '- ';
+}
+
+.ProjectImageBox {
+    display: inline;
+    height: 100%;
+}
+
+.ProjectImageBox img {
+    height: 100px;
+    width: auto;
+}
+
+.ProjectTextBox {
+    display: inline;
 }

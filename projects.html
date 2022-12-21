@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alex Dabbs - Projects</title>
+        <link href="style.css" rel="stylesheet">
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    </head> 
+
+    <body> 
+        
+        <!-- Title -->
+        <div class="TitleArea">
+            <h1>Alexander Dabbs</h1>
+            
+            <div style="text-align: center;">
+                <div class="Navigation"> 
+                    <a class="NavItem" href="home.html">Home</a>
+                    <a class="NavItem" href="education.html">Education</a>
+                    <a class="Selected" href="projects.html">Projects</a>
+                    <a class="NavItem" href="#ProjectExperience">Employment</a>
+                    <a class="NavItem" target="_blank" href="https://www.linkedin.com/in/alexander-dabbs">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="CenterContent">
+            <h2>Projects</h2>
+            <hr>
+
+            <div class="ProjectBox">
+                <div class="ProjectImageBox"><img src="/Images/pythonKeylogger.jpg"></div>
+                <div class="ProjectTextBox">
+                    <h3>Python Keylogger - Personal</h3>
+                    <ul>
+                        <li>Imported the library pynput into the code to allow the file to control and monitor devices when run.</li>
+                        <li>
+                            Scripted functions to create an empty text file that would iterate through each key that was recorded and have it logged in the text file. 
+                        </li>
+                        <li>
+                            Created separate functions with global values that would count the number of keys recorded and update the text file after a fixed number of keys were logged. 
+                        </li>
+                        <li>
+                            Tested the keylogger file in a Virtual Box environment without firewall protection to ensure functionality for both the code and the text file created within. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ProjectBox">
+                <h3>Python Password Checker - Personal</h3>
+                <ul>
+                    <li>Imported a file containing 10,000 commonly used passwords to compare user inputs and imported libraries to search for key words in the creation of user passwords.
+                    </li>
+                    <li>
+                        Created functions to present the user the option to either create their own password or have the program create a strong password automatically.
+                    </li>
+                    <li>
+                        Developed scripts with if/else statements to serve as password verficiation checks that would accept or deny inputs based on if all requirments were met for password strength.
+                    </li>
+                    <li>
+                        Added a function to create a text document that would record generated passwords and user inputs that passed the checks and encrypt through a basic MD5 encryption. 
+                    </li>
+                </ul> 
+            </div>
+            
+            <div class="ProjectBox">
+                <h3>Galaga | Space Invader Remake - Personal</h3>
+                <ul>
+                    <li>Created a remake of Space Invader with the design of Galaga.</li>
+                    <li>Utilized Pygame and several libraries to create screeen displays, player models, enemy models, and lives.</li>
+                    <li>
+                        Scripted multiple functions to control player movement through keyboard bindings, bullet travel and velocity, enemy movement, collisions between bullets and enemies, collision between player and enemies, and player lives.
+                    </li>
+                    <li>
+                        Created pixel art for characters and imported .jpeg and .png files into the program for background customization and font styles.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ProjectBox">
+                <h3>Computer Networking with CISCO - UCF</h3>
+                <ul>
+                    <li>
+                        Developed a Wide Area Network for a mock bank that included three Local Area Networks, one of which was partitioned using a VLAN and configured all network devices and endpoints to communicate to the entire WAN 
+                    </li>
+                    <li>
+                        Designed an IP Address Scheme and implemented VLANs and Trunking Protocols and assigned IP Addresses to each subnet and configured specific routers for Inter-VLAN routing.    
+                    </li>
+                    <li>
+                        Secured switch physical ports and configured OSPF and Extended ACLs to prevent guests on the network from connecting to the NTP/Syslog Server.
+                    </li>
+                    <li>
+                        Configured settings to prevent unauthorized access and enabled secure remote access through SSHv2 on all routers.
+                    </li>
+                </ul>
+            </div>
+            <hr>
+
+            <div class="MiscProjects">
+                <h3>AWS Cloud Computing - UCF</h3>
+                <ul>
+                    <li>
+                        Developed a Wide Area Network for a mock bank that included three Local Area Networks, one of which was partitioned using a VLAN and configured all network devices and endpoints to communicate to the entire WAN 
+                    </li>
+                    <li>
+                        Designed an IP Address Scheme and implemented VLANs and Trunking Protocols and assigned IP Addresses to each subnet and configured specific routers for Inter-VLAN routing.    
+                    </li>
+                    <li>
+                        Secured switch physical ports and configured OSPF and Extended ACLs to prevent guests on the network from connecting to the NTP/Syslog Server.
+                    </li>
+                    <li>
+                        Configured settings to prevent unauthorized access and enabled secure remote access through SSHv2 on all routers.
+                    </li>
+                </ul>
+
+                <h3>Capture the Flag - UCF</h3>
+                <ul>
+                    <li>
+                        Established a working virtual environment that consisted of an Ubuntu Virtual Machine and a Windows 10 Virtual Machine.
+                    </li>
+                    <li>
+                        Used Telnet to connect to POP3 via powershell and inspected the Ubuntu VM and used POP3 to search through mail servers for any activity.
+                    </li>
+                    <li>
+                        Located a website embedded in an email and used SIEM tools such as Splunk to investigate user login attempts to find the flag.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
